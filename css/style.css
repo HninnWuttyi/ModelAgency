@@ -1,16 +1,40 @@
-*{
-	font-family: "Lobster";
-}
-#banner {
-	background: linear-gradient(to bottom,rgba(218,165,146,0.4)0,rgba(218,165,146,0.4)100%),url(../image/banner.jpg);
+#sec02 {
 	width: 100%;
-	height: 100vh;
+	height: 30vh;
+	background: url(../image/banner3.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+#sec03 #sec03-sub-ttl {
+	color: #f38fb1;
+	text-transform: uppercase;
+}
+#sec03 i {
+	color: #ee547c;
+}
+#form button {
+	padding: 1.25rem 2.25rem;
+	font-size: .85rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 10rem;
+	background-color: #ee547c;
+}
+#card img {
+	height: 500px;
+}
+/*common css*/
+*{
+	font-family: "Dancing";
+}
+nav img {
+	width: 100px;
+	height: 100px;
+}
 #headertitle {
-	font-family: "Round";
+	font-family: "Lobster";
 }
 #divider {
 	/*1rem=16px;*/
@@ -25,5 +49,55 @@
 	text-transform: uppercase;
 	border: none;
 	border-radius: 10rem;
-	background-color: #fff;
+	color: #fff;
+	background-color: #ee547c;
+}
+#banner {
+	background: linear-gradient(to bottom,rgba(218,165,146,0.4)0,rgba(218,165,146,0.4)100%),url(../image/banner2.jpg);
+	width: 100%;
+	height: 80vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.fa-circle {
+	color: #ee547c;
+}
+#carouselIndicators ol {
+	position: relative;
+}
+#carouselIndicators ol li {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background-color: pink;
+}
+#carouselIndicators span .prev,.next {
+	color: pink;
+}
+footer {
+	background-color: #f38fb1;
+}
+footer .fa-chevron-up {
+	cursor: pointer;
+	color: #fff;
+}
+footer ul li {
+	list-style: none;
+}
+footer ul a {
+	color: #fff;
+}
+/*home css*/
+#main-banner {
+	background: linear-gradient(to bottom,rgba(218,165,146,0.4)0,rgba(218,165,146,0.4)100%),url(../image/banner.jpg);
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#pagination .page-item.active .page-link  {
+	background-color: #f38fb1;
+	border-color: #f38fb1;
 }

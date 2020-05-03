@@ -3,10 +3,6 @@
 	font-family: "Lobster";
 }
 @(font-face){
-	src: url("../fonts/round/round/ttf");
-	font-family: "Round";
-}
-@(font-face){
-	src: url("../fonts/sans/sans.ttf");
-	font-family: "Sans";
+	src: url("../fonts/dancing/dancing.ttf");
+	font-family: "Dancing";
 }
